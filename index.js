@@ -58,7 +58,7 @@ const userSchema = new Schema ({
 const User = mongoose.model('User', userSchema)
 
 app.get('/', (req, res)=>{
-    res.send(welcome)
+    res.send("welcome")
 })
 
 // CREATE NEW USER
